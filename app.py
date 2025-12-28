@@ -106,28 +106,28 @@ def get_model(model_path):
     return load_model(model_path)
 
 if model_choice == "YOLOv11 (best)":
-    model_path = r"D:\nhan_dang_mau\runs\train\yolo11m_exp2\weights\best.pt"
+    model_path = r"D:\carDetect\cardetect\runs\train\yolo11m_exp2\weights\best.pt"
     with st.sidebar:
         with st.spinner("Đang tải model..."):
             model = get_model(model_path)
         if model:
             st.success("✅ YOLOv11 (best) sẵn sàng!")
 elif model_choice == "YOLOv11 (last)":
-    model_path = r"D:\nhan_dang_mau\runs\train\yolo11m_exp2\weights\last.pt"
+    model_path = r"D:\carDetect\cardetect\runs\train\yolo11m_exp2\weights\last.pt"
     with st.sidebar:
         with st.spinner("Đang tải model..."):
             model = get_model(model_path)
         if model:
             st.success("✅ YOLOv11 (last) sẵn sàng!")
 elif model_choice == "YOLOv8 (best)":
-    model_path = r"D:\nhan_dang_mau\runs\train\yolov8n_exp\weights\best.pt"
+    model_path = r"D:\carDetect\cardetect\runs\train\yolov8n_exp\weights\best.pt"
     with st.sidebar:
         with st.spinner("Đang tải model..."):
             model = get_model(model_path)
         if model:
             st.success("✅ YOLOv11 (last) sẵn sàng!")
 elif model_choice == "YOLOv8 (last)":
-    model_path = r"D:\nhan_dang_mau\runs\train\yolov8n_exp\weights\last.pt"
+    model_path = r"D:\carDetect\cardetect\runs\train\yolov8n_exp\weights\last.pt"
     with st.sidebar:
         with st.spinner("Đang tải model..."):
             model = get_model(model_path)
