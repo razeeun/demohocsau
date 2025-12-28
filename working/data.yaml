@@ -1,0 +1,10 @@
+names:
+- truck
+- bus
+- car
+- motorcycle
+nc: 4
+test: /content/drive/MyDrive/archive/valid
+train: /content/drive/MyDrive/archive/train
+val: /content/drive/MyDrive/archive/valid
+#w
